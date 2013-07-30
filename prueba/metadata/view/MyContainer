@@ -1,0 +1,68 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "ui": "light",
+        "designer|userClassName": "MyContainer",
+        "designer|initialView": true,
+        "layout": "fit"
+    },
+    "designerId": "8d5becf4-0411-4e74-92ea-985a2fe4fdd0",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "Prueba"
+            },
+            "designerId": "eab4e4ef-eadd-4426-8208-3a84193bed19"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "height": "10%",
+                "top": "90%",
+                "width": "100%",
+                "text": "MyButton"
+            },
+            "designerId": "1e9fae09-2c8d-448b-9e67-6fbca06d5111",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "handler",
+                        "designer|params": [
+                            "button",
+                            "event"
+                        ],
+                        "implHandler": [
+                            "alert(\"Mola Hundo!\");",
+                            ""
+                        ]
+                    },
+                    "designerId": "4661bbb5-7f09-4b7f-ab19-4d8a28a4dd31"
+                }
+            ]
+        }
+    ]
+}
