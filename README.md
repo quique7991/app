@@ -1,0 +1,4 @@
+app
+===
+
+Basic Sencha App
